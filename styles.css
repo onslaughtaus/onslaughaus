@@ -92,7 +92,11 @@ z-index: 9999 !important;
     text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
     text-transform: uppercase;
 text-decoration: none; 
+opacity: 0.75;
 }
+.loadingtext a:hover {
+    opacity: 1; 
+  }
 
 @keyframes blinker {
     50% {
